@@ -7,6 +7,10 @@ var upperCase = window.confirm("Would you like your password to include uppercas
 var numbers = window.confirm("Would you like your password to contain numbers?");
 var specialChar = window.confirm("Would you like your password to include special characters?");
 
+const alphabetLowcase = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+const alphabetUppercase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+const specialCharacter = ["!","@","#","$","%","^","&","*","(",")","_","+"];
+
 
 // Write password to the #password input
 function writePassword() {
