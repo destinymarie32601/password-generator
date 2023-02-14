@@ -12,7 +12,7 @@ generateBtn.addEventListener("click", writePassword); //Event listener to call t
 
 function promptAnswers () {   //function to display the prompts and get the answers
   characterArray = []; //answers are stored into the empty array
-  passwordLength = window.prompt("How long would you like your password?"); //storing how long the password is into variable
+  passwordLength = window.prompt("How many characters would you like your password to be (Enter a number)?"); //storing how long the password is into variable
 
   if (passwordLength < 8  || passwordLength > 128) { //if statement for the length of the password to be in the accepted criteria
   alert("Your password needs to be between 8 and 128 characters") //if it is not then it will alert the user and return false
