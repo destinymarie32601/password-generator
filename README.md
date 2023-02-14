@@ -5,7 +5,7 @@ The motive of this project was to create a strong password generator for the use
 
 ## Links
 
-Deployed Application URL : 
+Deployed Application URL : https://destinymarie32601.github.io/password-generator/
 
 Github Repository : https://github.com/destinymarie32601/password-generator.git
 
